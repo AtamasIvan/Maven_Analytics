@@ -1,2 +1,2 @@
-# Maven_Analytics
+# Maven-Sales-Analysis
 Analysis of Maven Sales Challenge 
