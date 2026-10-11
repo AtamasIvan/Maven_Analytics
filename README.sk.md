@@ -2,22 +2,6 @@
 
 English version: [README.md](README.md)
 
-## Štruktúra repozitára
-
-```
-maven-sales-analysis/
-├── README.md
-├── README.sk.md
-├── screenshots/
-│   ├── dashboard-main.png
-│   └── dashboard-products.png
-├── sql/
-│   ├── product_performance.sql
-│   ├── manager_performance.sql
-│   └── agent_cohort_performance.sql
-└── powerbi/
-    └── maven_sales_dashboard.pbix
-```
 Analýza CRM dát o predaji (manažéri, predajní agenti, produkty) pomocou SQL a interaktívneho dashboardu v Power BI.
 
 ![Hlavná stránka](screenshots/dashboard-main.png)
@@ -88,3 +72,19 @@ Maven Analytics – CRM Sales Opportunities: 8 800 dohôd (opportunities), 30 pr
 - Obdobia sú zoskupené podľa dátumu **otvorenia** dohody, preto posledné kvartály vyzerajú slabšie: veľa týchto dohôd ešte nebolo uzavretých.
 - Kohorta Q4 2016 je malá, jej čísla by sa nemali zovšeobecňovať.
 - Výsledky pochádzajú z jedného datasetu a nevysvetľujú, *prečo* sa dohody vyhrali alebo prehrali.
+## Štruktúra repozitára
+
+```
+maven-sales-analysis/
+├── README.md
+├── README.sk.md
+├── screenshots/
+│   ├── dashboard-main.png
+│   └── dashboard-products.png
+├── sql/
+│   ├── product_performance.sql
+│   ├── manager_performance.sql
+│   └── agent_cohort_performance.sql
+└── powerbi/
+    └── maven_sales_dashboard.pbix
+```
